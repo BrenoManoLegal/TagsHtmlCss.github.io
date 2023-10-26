@@ -1,18 +1,24 @@
 .legal{
     text-align: center;
-    background-color: black;
+    background-color: gray;
     color: white;
+    font-size: 20px;
 }
 .lgl{
     text-align: center;
     color: white;
+    font-size: 20px;
 }
 .img{
     border-radius: 5px;
 }
 body{
-    background-color: gray;
+    background-color: darkgray;
+    font-family: 'Sometype Mono', monospace;
 }
 .link{
     text-align: center;
+}
+.bob{
+    display: none;
 }

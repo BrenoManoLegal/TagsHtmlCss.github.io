@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="pagpessoal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap" rel="stylesheet">
+<script defer src="pagpessoal.js"></script>
 </head>
 <body>
     <div class="lgl">
@@ -22,16 +26,37 @@
     <p5>Desenvolvedor web em treinamento</p5><br>
     <p6>SOBRE MIM</p6><br>
     <p7>Meu nome é Breno, nasci no dia 05/09/2066, em Santo André, entrei no SESI em 2013, no primeiro ano,<br> estou nela até hoje, atualmente estou no segundo ano do ensino médio, e cursando desenvolvimento de sistema no SENAI Almirante Tamandaré</p7><br>
+    <button onclick="esconde('bob')">Esconder</button>
+    <button onclick="mostrar('bob')">Mostrar</button>
+    <button onclick="toggle('bob')">Alternar</button>
+    <div id="bob">
     <p8>HABILIDADES</p8><br>
     <p9>Atualmente estou no meio do curso sobre desenvolvimento web, porém tenho alguns conhecimentos em:<br>
         HTML<br>
         CSS<br>
         JAVASCRIPT(Básico)<br>
+    </div>
     </p9>
 </div>
 <div class="link">
     <a href="https://github.com/BrenoManoLegal"><img src="GitHub-Mark-removebg-preview.png" alt="github" width="100"></a>
-    <a href="https://www.instagram.com/breno.costa17/"><img src="Insta-removebg-preview.png" alt="Instagram" width="100"></a>
+    <section>
+        <h2>Informações de contato</h2>
+
+
+    <form method="post" action="">
+        <label for="nome">Nome: </label>
+        <input id="nome" type=text required name=nome/>
+    <br />
+        <label for="email">Email: </label>
+        <input id="email" type=text required name=email/>
+        <br />
+        <label for="email">Número de telefone: </label>
+        <input id="email" type=text required name=email/>
+        <br />
+
+    <input type=submit value="Enviar contato"/>
+
 </div>
 
 </body>
