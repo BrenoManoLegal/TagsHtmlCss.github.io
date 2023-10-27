@@ -1,24 +1,46 @@
 .legal{
-    text-align: center;
-    background-color: gray;
+    text-align: left;
+    background-color: darkgray;
     color: white;
-    font-size: 20px;
+    font-size: 40px;
 }
 .lgl{
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
-.img{
-    border-radius: 5px;
-}
+
 body{
-    background-color: darkgray;
+    background-color: gray;
     font-family: 'Sometype Mono', monospace;
+    text-align: center;
 }
 .link{
     text-align: center;
 }
 .bob{
     display: none;
+}
+
+.formulario{
+    text-align: left;
+}
+
+.formulario2{
+    text-align: right;
+}
+
+.lok{
+    background-color: #6e6969;
+    color: white;
+    font-size: 40px;
+    text-align: left;
+}
+
+.mic{
+    font-size: 30px;
+}
+
+h1{
+    background-color: #6e6969;
 }
